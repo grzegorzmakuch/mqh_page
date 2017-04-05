@@ -1,0 +1,139 @@
+/* 
+    Created on : Mar 28, 2017, 11:09:33 AM
+    Author     : GM
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f2f2f2;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background: linear-gradient(to right, #2b2b33, #19aeff);
+  min-height: 50px;
+  line-height: 50px;
+}
+
+header > nav > .logo {
+  color: #19aeff;
+  text-transform: uppercase;
+  float: left;
+  font-size: 24px;
+  text-shadow: 0px 0px 1px rgba(222, 250, 141, 0.6);
+}
+
+header > nav > .logo > span {
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+header > nav > ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+}
+
+header > nav > ul > li {
+  display: inline-block;
+}
+
+header > nav > ul > li > a {
+  color: #f2f2f2;
+  display: block;
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 16px;
+}
+
+header nav ul li a:hover {
+  text-shadow: 0px 0px 1px rgba(222, 250, 141, 0.6);
+}
+
+section.submenu1 {
+  background-color: #4f4f4f;
+  height: 40px;
+  line-height: 40px;
+}
+
+section.submenu1 ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+}
+
+section.submenu1 ul li {
+  display: inline-block;
+}
+
+section.submenu1 a {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+footer .social {
+  background-color: #4f4f4f;
+  padding: 20px;
+}
+
+footer .social > ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+footer .social > ul > li {
+  display: inline-block;
+}
+
+.social i.fa {
+  color: #f2f2f2;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 1.2em;
+  margin: 0 12px;
+}
+
+.social i.fa:hover {
+  cursor: pointer;
+  color: #19aeff;
+}
+
+footer .info {
+  background-color: #2b2b33;
+  padding: 10px;
+}
+
+footer .info p {
+  font-size: 14px;
+  margin: 0;
+}
